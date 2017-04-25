@@ -1,6 +1,6 @@
 # npmtest-co-monk
 
-#### basic test coverage for  co-monk (v1.0.0)  [![npm package](https://img.shields.io/npm/v/npmtest-co-monk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-co-monk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-co-monk.svg)](https://travis-ci.org/npmtest/node-npmtest-co-monk)
+#### basic test coverage for  [co-monk (v1.0.0)](https://github.com/visionmedia/co-monk)  [![npm package](https://img.shields.io/npm/v/npmtest-co-monk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-co-monk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-co-monk.svg)](https://travis-ci.org/npmtest/node-npmtest-co-monk)
 
 #### mongodb generator goodness for co
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-co-monk/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-co-monk/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-co-monk/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-co-monk/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-co-monk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-co-monk/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-co-monk/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-co-monk/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-co-monk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-co-monk/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-co-monk/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-co-monk/build/coverage.html/index.html)
 
@@ -35,10 +35,28 @@
 ```json
 
 {
-    "name": "co-monk",
-    "version": "1.0.0",
-    "repository": "visionmedia/co-monk",
+    "bugs": {
+        "url": "https://github.com/visionmedia/co-monk/issues"
+    },
+    "dependencies": {
+        "thunkify": "0.0.1"
+    },
     "description": "mongodb generator goodness for co",
+    "devDependencies": {
+        "co": "~2.3.0",
+        "mocha": "*",
+        "monk": "~0.7.1",
+        "should": "*"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "4491047df0a87e1d7cab76aaa971085530c80bf6",
+        "tarball": "https://registry.npmjs.org/co-monk/-/co-monk-1.0.0.tgz"
+    },
+    "files": [
+        "index.js"
+    ],
+    "homepage": "https://github.com/visionmedia/co-monk",
     "keywords": [
         "co",
         "monk",
@@ -46,19 +64,20 @@
         "mongo",
         "mongodb"
     ],
-    "dependencies": {
-        "thunkify": "0.0.1"
-    },
-    "devDependencies": {
-        "mocha": "*",
-        "should": "*",
-        "co": "~2.3.0",
-        "monk": "~0.7.1"
-    },
-    "files": [
-        "index.js"
+    "license": "MIT",
+    "maintainers": [
+        {
+            "name": "tjholowaychuk"
+        }
     ],
-    "license": "MIT"
+    "name": "co-monk",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/visionmedia/co-monk.git"
+    },
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
